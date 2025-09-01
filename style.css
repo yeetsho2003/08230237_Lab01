@@ -1,0 +1,118 @@
+.topbar {
+    background: #5888b9;
+    color:#fff;
+    padding:0.1cm;
+    width:100%
+}
+
+.nav-links {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+.nav-links li a {
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+body {
+    /* Applies styles to the entire webpage body */
+    font-family: 'Open Sans', sans-serif; /* Sets the font family */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Topbar */
+.topbar {
+    background: #5888b9; /* Blue background */
+    color: #fff; /* White text color */
+    padding: 0.5em;
+    width: 100%; /* Full width of the viewport */
+}
+
+.logo {
+    /* Styles for the SCE logo image */
+    height: 15vh; /* Height set to 15% of viewport height */
+    margin-top: -3em; /* Moves logo upward */
+}
+
+.nav-links {
+    /* Styles the unordered list inside topbar */
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Side by side */
+    gap: 2em; /* Space between items */
+    justify-content: center; /* Centers horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: white; /* White text */
+    text-decoration: none; /* Removes underline */
+    font-size: 14px;
+}
+
+/* Main navigation bar */
+.main-nav {
+    display: flex; /* Row layout */
+    justify-content: space-around; /* Even spacing */
+    background-color: #fff;
+    padding: 1em 4em 1em 2em; /* Top, right, bottom, left */
+}
+
+.nav-section {
+    text-align: center;
+    padding: 1em; /* Inner space */
+}
+
+.nav-section a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-section p {
+    font-size: 0.75em; /* Smaller text */
+    color: #555; /* Grey */
+}
+
+.btn-red {
+    background-color: #e74c3c; /* Red background */
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #1565c0; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    padding: 1em 10%;
+    gap: 5em;
+}
+
+.video-container {
+    flex: 1 1 45%; /* Flexible box, base 45% */
+}
+
+.greetings {
+    flex: 1 1 45%;
+}
+
+.greetings p {
+    text-align: justify;
+}
